@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aae42e70-9c47-45a8-abf3-fb0ebc48b2f8" name="ipalexan_falco" url="https://yanfit.ru/">
+        <fileTransfer rootFolder="/home/i/ipalexan/falco/public_html" accessType="SFTP" host="ipalexan.beget.tech" port="22" sshConfigId="bcfcbcf9-df26-4f0b-8e52-9c84267be92c" sshConfig="ipalexan_falco@ipalexan.beget.tech:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

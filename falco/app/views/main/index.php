@@ -20,7 +20,6 @@
             </div>
             <p class="door__description">Вид изнутри</p>
         </div>
-
     </div>
     <div class="params">
         <h4 class="params-title">Параметры</h4>

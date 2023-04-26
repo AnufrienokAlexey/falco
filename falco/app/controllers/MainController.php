@@ -8,7 +8,6 @@ class MainController extends Controller
     public function indexAction()
     {
         $this->view->render('Главная страница');
-
     }
 
     public function contactAction()
@@ -18,6 +17,17 @@ class MainController extends Controller
 
     public function sendformAction()
     {
-        debug($_POST);
+        $accessories = implode(' ', $_POST['accessories']);
+        $this->model->sendform(
+            $_POST['color'],
+            $_POST['skin_color'],
+            $_POST['handle_color'],
+            $_POST['width'],
+            $_POST['height'],
+            $_POST['opening'],
+            $accessories
+        );
+
+        $this->view->redirect('/');
     }
 }

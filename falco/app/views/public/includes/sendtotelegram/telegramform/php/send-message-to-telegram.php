@@ -1,10 +1,10 @@
 <?php
 
 // Токен
-  const TOKEN = '341996777:AAHbnuvQib-vHU47i-6hbUrCU9D-qHYekxc';
+  const TOKEN = '6246619275:AAFhpIHjVq9w82Mz8j6pEaPEyZPq5dHnwIo';
 
   // ID чата
-  const CHATID = '-209253141';
+  const CHATID = '727047490';
 
   // Массив допустимых значений типа файла. Популярные типы файлов можно посмотреть тут: https://docs.w3cub.com/http/basics_of_http/mime_types/complete_list_of_mime_types
   $types = array('image/gif', 'image/png', 'image/jpeg', 'application/pdf');
@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $urlFile =  "https://api.telegram.org/bot" . TOKEN . "/sendMediaGroup";
           
           // Путь загрузки файлов
-          $path = $_SERVER['DOCUMENT_ROOT'] . '/telegramform/tmp/';
+          $path = $_SERVER['DOCUMENT_ROOT'] . '/app/views/public/includes/sendtotelegram/telegramform/tmp/';
           
           // Загрузка файла и вывод сообщения
           $mediaData = [];

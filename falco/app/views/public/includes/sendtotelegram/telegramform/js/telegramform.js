@@ -13,7 +13,7 @@
     let form = $("#" + $(this).attr("id"))[0];
     let fd = new FormData(form);
     $.ajax({
-      url: "/telegramform/php/send-message-to-telegram.php",
+      url: "/app/views/public/includes/sendtotelegram/telegramform/php/send-message-to-telegram.php",
       type: "POST",
       data: fd,
       processData: false,
